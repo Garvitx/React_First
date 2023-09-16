@@ -1,0 +1,27 @@
+/* Sphere.css */
+
+.sphere-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .sphere {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #00f, #0f0, #f00);
+    background-size: 200% 200%;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0) rotateY(0);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  

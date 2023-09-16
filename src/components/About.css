@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+body {
+  background-color: #f5f5f5;
+}
+
+.title {
+    font-family: 'Anderson Grotesk', sans-serif;
+  margin-top: -20rem;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  letter-spacing: 1px;
+  line-height:2
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}
+
+
+/* Styling for the About Box */
+.about-box {
+
+    color: black;
+    background-color: transparent; /* Background color for the box */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+    margin: 20px; /* Margin around the box */
+  }
+  
+  .about-box p {
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    color: #333; /* Text color */
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      margin-top: -0rem; /* Adjust the margin-top for better visibility on small screens */
+      font-size: 24px; /* Decrease font size for small screens */
+    }
+  
+    h1 {
+      font-size: 60px; /* Decrease the size of the heading for small screens */
+    }
+  
+    .white-mode {
+      font-size: 14px; /* Decrease font size for small screens */
+    }
+  
+    /* You can add additional responsive styles as needed for small screens */
+  }
+  
+  /* Responsive styles for medium screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .title {
+      margin-top: -0rem; /* Adjust the margin-top for better visibility on medium screens */
+      font-size: 36px; /* Decrease font size for medium screens */
+    }
+  
+    h1 {
+      font-size: 80px; /* Decrease the size of the heading for medium screens */
+    }
+  
+    .white-mode {
+      font-size: 16px; /* Decrease font size for medium screens */
+    }
+  
+    /* You can add additional responsive styles as needed for medium screens */
+  }
